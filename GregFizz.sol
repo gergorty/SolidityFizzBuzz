@@ -3,7 +3,7 @@ pragma solidity ^0.8.6;
 
 contract FizzBuzz {
 
-    function check(uint _x) public view returns (string memory) {
+    function check(uint _x) public pure returns (string memory) {
         require(_x >= 0, "Must be positive integer");
 
         if (_x % 3 == 0 && _x % 5 == 0){
