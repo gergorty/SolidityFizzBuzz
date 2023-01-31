@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"GregFizz.sol": "FizzBuzz"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"GregFizz.sol": {
+			"keccak256": "0x44b70919e99f1cda84c9269e5bdd8aace41d24f1911fb131b82015c33a6f212b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://63f44edda8a560e66a47d83ad86932ac0d904d4732c6fa53cace10651072019c",
+				"dweb:/ipfs/QmPnVSX6FNr9t1Ss7jGM5knUFXKhXtrrCzNtQ5ZuWroW98"
+			]
+		}
+	},
+	"version": 1
+}
